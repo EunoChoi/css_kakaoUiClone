@@ -22,13 +22,15 @@ html {
 .login-body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 400px;
+  /*width: 400px;*/
+  width: 100vw;
   height: 100vh;
   background-color: lightgoldenrodyellow;
 }
 body:not(.login-body) {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 400px;
+  /*width: 400px;*/
+  width: 100vw;
   background-color: lightgoldenrodyellow;
 }
