@@ -1,0 +1,73 @@
+.wellcome-header {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.wellcome-header__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.wellcome-header__text {
+  text-align: center;
+  width: 300px;
+
+  opacity: 0.5;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*클래스를 지정하지 않고 수도 셀렉터를 사용하여도 가능하다
+  submit 타입의 경우는 어떻게 지정할 수 있을까?
+  .login-form input::placeholder{}
+  .login-form input::value{}
+  
+  
+  .login-form input:not([type="submit"]) {
+    width: 350px;
+  }
+  
+  */
+
+/* 공통 사항은 반복하지 말고 묶자*/
+
+.login-form input {
+  width: 350px;
+}
+.login-form__text {
+  background-color: lightgoldenrodyellow;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: none;
+  border-bottom: solid 1px lightsteelblue;
+  margin-bottom: 20px;
+
+  transition: border-color 0.5s ease-in-out;
+}
+.login-form__text:focus {
+  border-color: var(--costoms-color);
+}
+/*클래스를 정의하지 않고 
+  .login-form input[type="submit"] 를 사용해도 된다 */
+.login-form__btn {
+  background-color: lightsteelblue;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+
+  font-size: 16px;
+  border: none;
+
+  cursor: pointer;
+}
+.login-form a {
+  text-align: center;
+  margin: 40px 0px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+}

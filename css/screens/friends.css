@@ -1,0 +1,36 @@
+.info-area {
+  margin-top: 136px;
+  width: inherit;
+  height: 50px;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-area span {
+  margin: 0px 5px;
+}
+
+.info-area span i {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.ch-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px var(--horizontal-padding);
+  border-top: rgba(0, 0, 0, 0.2) solid 2px;
+  padding: 10px 0px;
+
+  box-sizing: border-box;
+}
+.ch-header span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bar {
+  border-top: rgba(0, 0, 0, 0.2) solid 2px;
+  margin: 20px var(--horizontal-padding);
+}

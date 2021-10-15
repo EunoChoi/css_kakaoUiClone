@@ -1,0 +1,25 @@
+/*@import "css/variables.css";*/
+
+.screen-header {
+  background-color: lightgoldenrodyellow;
+
+  position: fixed;
+  height: 100px;
+  top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  box-sizing: border-box;
+
+  padding: 0px var(--horizontal-padding);
+}
+
+.screen-header__text {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  padding-left: 10px;
+}

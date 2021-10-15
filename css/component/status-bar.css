@@ -1,0 +1,36 @@
+/*locate icon in status-bar*/
+.status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  width: inherit;
+  box-sizing: border-box;
+  top: 0px;
+  background-color: lightgoldenrodyellow;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:nth-child(1) span {
+  margin-right: 10px;
+}
+.status-bar__column:nth-child(2) span {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*status-bar icon margin*/
+.fa-undo {
+  margin-right: 5px;
+}
+.fa-battery-three-quarters {
+  margin-left: 5px;
+}
+.fa-bolt {
+  margin-left: 5px;
+}

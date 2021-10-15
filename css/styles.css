@@ -1,0 +1,34 @@
+/*general css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import "reset-css.css";
+@import "variables.css";
+
+/*components*/
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+
+/*screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+
+html {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.login-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 400px;
+  height: 100vh;
+  background-color: lightgoldenrodyellow;
+}
+body:not(.login-body) {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 400px;
+  background-color: lightgoldenrodyellow;
+}
