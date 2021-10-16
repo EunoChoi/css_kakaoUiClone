@@ -1,0 +1,20 @@
+.hidden-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  border-top: rgba(0, 0, 0, 0.1) solid 2px;
+  padding: 10px 0px;
+
+  box-sizing: border-box;
+}
+
+.hidden-bar__title {
+  color: rgba(0, 0, 0, 0.4);
+}
+.hidden-bar__text {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hidden-bar__text i {
+  margin-left: 10px;
+}

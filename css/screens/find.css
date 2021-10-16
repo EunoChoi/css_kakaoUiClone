@@ -1,0 +1,24 @@
+.recommended-friends {
+  border-top: solid 2px rgba(0, 0, 0, 0.1);
+  /*border-bottom: solid 2px rgba(0, 0, 0, 0.1);*/
+  margin-top: 20px;
+
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.recommended-friends__title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  height: 40px;
+  display: flex;
+}
+
+.recommended-friends__subtitle {
+  height: 200px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}

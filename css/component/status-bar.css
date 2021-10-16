@@ -7,20 +7,22 @@
   width: inherit;
   box-sizing: border-box;
   top: 0px;
-  background-color: lightgoldenrodyellow;
+  background-color: whitesmoke;
 }
 .status-bar__column {
+  display: flex;
   width: 33%;
+  justify-self: center;
+  align-items: center;
 }
 .status-bar__column:nth-child(1) span {
   margin-right: 10px;
+  white-space: nowrap;
 }
-.status-bar__column:nth-child(2) span {
-  display: flex;
+.status-bar__column:nth-child(2) {
   justify-content: center;
 }
 .status-bar__column:nth-child(3) {
-  display: flex;
   justify-content: flex-end;
 }
 

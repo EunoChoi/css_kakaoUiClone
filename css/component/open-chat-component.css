@@ -1,0 +1,46 @@
+#active span {
+  color: palevioletred;
+  margin-left: 5px;
+}
+
+.open-chat-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0px;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.open-chat-component__text {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.open-chat-component__subtitle span {
+  color: rgba(0, 0, 0, 0.5);
+}
+.open-chat-component__member span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat-component__picture img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 10%;
+}
+
+.open-chat-component__infomation {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat-component__owner img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}

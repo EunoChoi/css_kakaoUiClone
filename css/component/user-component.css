@@ -1,14 +1,11 @@
 .user-component {
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
-  padding: 0px var(--horizontal-padding);
+  /*padding: 0px var(--horizontal-padding);*/
 
   justify-content: space-between;
-}
-
-.user-component-small:last-child {
-  margin-bottom: 82px;
+  width: inherit;
 }
 
 .user-component-small {
@@ -18,38 +15,87 @@
 .user-component__column {
   display: flex;
   align-items: center;
+
+  overflow: hidden;
 }
 .user-component__column:nth-child(2) {
+  width: 60px;
   color: rgba(0, 0, 0, 0.5);
 }
 
-.user-component__img {
+.user-component img {
   height: 65px;
   width: 65px;
-  border-radius: 25px;
+  border-radius: 40%;
 }
 
-.user-component__img-small {
-  height: 50px;
-  width: 50px;
-  border-radius: 20px;
+.user-component-middle img {
+  height: 55px;
+  width: 55px;
+}
+
+.user-component-small img {
+  height: 45px;
+  width: 45px;
 }
 
 .user-component__text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   padding: 0px 10px;
+  box-sizing: border-box;
+
+  overflow: hidden;
 }
+
+/*component-big text size */
 .user-component__title {
   font-size: 25px;
   font-weight: 600;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.user-component__title-small {
-  font-size: 20px;
-  font-weight: 400;
-}
-.user-component__sub-title {
+.user-component__subtitle {
   color: rgba(0, 0, 0, 0.5);
   font-size: 18px;
   padding: 5px 0px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*component-middle text size */
+.user-component-middle .user-component__title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.user-component-middle .user-component__subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  padding: 5px 0px;
+}
+
+/*component-small text size */
+.user-component-small .user-component__title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.user-component-small .user-component__subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  padding: 5px 0px;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  color: rgba(0, 0, 0, 1);
 }

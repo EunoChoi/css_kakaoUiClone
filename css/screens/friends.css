@@ -1,9 +1,9 @@
 .info-area {
-  margin-top: 136px;
   width: inherit;
   height: 50px;
   background-color: white;
-
+  position: fixed;
+  top: 116px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,20 +17,11 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.ch-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px var(--horizontal-padding);
-  border-top: rgba(0, 0, 0, 0.2) solid 2px;
-  padding: 10px 0px;
-
-  box-sizing: border-box;
-}
-.ch-header span {
-  color: rgba(0, 0, 0, 0.5);
-}
-
 .bar {
-  border-top: rgba(0, 0, 0, 0.2) solid 2px;
-  margin: 20px var(--horizontal-padding);
+  border-top: rgba(0, 0, 0, 0.1) solid 2px;
+  margin: 20px 0px;
+}
+
+.user-component-ch .user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
 }
