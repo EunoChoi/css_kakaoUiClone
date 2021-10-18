@@ -5,3 +5,103 @@
 .screen-header-alt__chat{
     background-color :lightblue;
 }
+.main-screen__chat{
+    display: flex;
+    flex-direction: column;
+}
+.time-space{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+.time{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+    width: 180px;
+    height: 15px;
+    border-radius: 20px;
+    
+    font-size: 15px;
+    text-align : center;
+    padding: 5px;
+}
+
+
+
+
+.input-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0px;
+
+    padding: 10px 15px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 60px;
+    
+
+    background-color: whitesmoke;
+}
+.input-area__plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3);
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+
+.input-area .input-area__column:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    width: calc(100% - 40px);
+    height: 40px;
+    margin-left: 10px;
+
+    background-color: white;
+}
+.input-area__text{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+
+    width: calc(100% - 110px);
+
+    background-color: white;
+    border : none;
+}
+
+
+.input-area__emoji{
+    font-size: 29px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-right: 10px;
+}
+
+.input-area__send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+
+    background-color: var(--costoms-color);
+    color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+

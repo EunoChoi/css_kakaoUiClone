@@ -7,7 +7,7 @@
   padding: 0px 30px;
   box-sizing: border-box;
 
-  background-color: royalblue;
+  background-color:slategray;
   color: whitesmoke;
 }
 .nav__ul {
@@ -32,8 +32,4 @@
   position: absolute;
   right: -10px;
   bottom: 13px;
-}
-
-.body__chat{
-  background-color: tomato;
 }
