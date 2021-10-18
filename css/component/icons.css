@@ -1,20 +1,30 @@
 .icons {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.icons > div {
-  width: 20vw;
-  height: 100px;
-}
 .icon {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 20vw;
+}
+.icon-image{
+  height: 40px;
+}
+.icon-text{
+  height: 40px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-
+/*
 .icon span {
+  height: 35px;
   text-align: center;
   margin-top: 15px;
-}
+}*/

@@ -2,7 +2,7 @@
 
 .screen-header {
   background-color: whitesmoke;
-
+  color: black;
   position: fixed;
   height: 80px;
   top: 36px;

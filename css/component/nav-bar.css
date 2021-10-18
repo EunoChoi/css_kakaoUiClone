@@ -1,16 +1,25 @@
 .nav {
+  z-index: 10;
+
   width: inherit;
   position: fixed;
   bottom: 0px;
   padding: 0px 30px;
   box-sizing: border-box;
 
-  background-color: lightsteelblue;
+  background-color: royalblue;
+  color: whitesmoke;
 }
 .nav__ul {
   display: flex;
   justify-content: space-between;
   padding: 15px 0px;
+}
+
+.nav__li {
+  display: block;
+  width: 20vw;
+  text-align: center;
 }
 
 .nav__link {
@@ -23,4 +32,8 @@
   position: absolute;
   right: -10px;
   bottom: 13px;
+}
+
+.body__chat{
+  background-color: tomato;
 }

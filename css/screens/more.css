@@ -1,10 +1,24 @@
-.sugestions__title {
+.user-component-more{
+  margin-bottom: 50px;
+}
+
+
+.more-sugestions {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+
   height: 50px;
-  margin-top: 20px;
 
   border-top: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.more-sugestions >span{
+  padding: 20px 0px;
+}
+
+.more-sugestions .icons > div {
+  width: 20vw;
+  height: 120px;
 }
 
 .icons-more span {
@@ -15,7 +29,40 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
-.user-component-more .user-component__subtitle i {
+/*make suggestion icon useing background color*/
+.icons-suggestion .icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 70px;
+
+  border-radius: 20%;
+
+  background-color: var(--costoms-color);
+}
+.icons-suggestion .icon{
+  margin: 5px;
+}
+
+.icons-suggestion .icon-box span {
+  font-weight: 800;
+  color: saddlebrown;
+  margin: 0px;
+  text-align: center;
+}
+
+/* add exclamation*/
+#exclamation {
+  background-color: yellow;
   margin-left: 10px;
   color: tomato;
+}
+
+.add-exclamation{
+  display: flex;
+
+  align-items: center;
+  overflow: hidden;
 }

@@ -16,7 +16,7 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>SKT</span>
         <i class="fas fa-wifi"></i>
       </div>
 
@@ -26,7 +26,7 @@
 
       <div class="status-bar__column">
         <i class="fas fa-undo"></i>
-        <span>110%</span>
+        <span>99%</span>
         <i class="fas fa-battery-three-quarters fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -39,18 +39,18 @@
             ><i class="fas fa-user fa-2x"></i
           ></a>
         </li>
-        <li>
+        <li class="nav__li">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
             <i class="far fa-comment fa-2x"></i
           ></a>
         </li>
-        <li>
+        <li class="nav__li">
           <a class="nav__link" href="find.html"
             ><i class="fas fa-search fa-2x"></i
           ></a>
         </li>
-        <li>
+        <li class="nav__li">
           <a class="nav__link" href="more.html"
             ><i class="fas fa-plus-square fa-2x"></i
           ></a>
@@ -63,7 +63,7 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-2x"></i></span>
         <span><i class="fas fa-music fa-2x"></i></span>
-        <span><i class="fas fa-cog fa-2x"></i></span>
+        <a href="settings.html"><span><i class="fas fa-cog fa-2x"></i></span></a> 
       </div>
     </header>
 
@@ -75,9 +75,12 @@
           </div>
           <div class="user-component__text">
             <span class="user-component__title">Euno Choi</span>
-            <span class="user-component__subtitle"
-              >+82 010-123-1234<i class="fas fa-exclamation-circle"></i
-            ></span>
+            <span class="add-exclamation">
+              <span class="user-component__subtitle">+82 010-123-1234</span>
+              <span><i id="exclamation" class="fas fa-exclamation-circle"></i></span>
+            </span>
+            
+            
           </div>
         </div>
         <div class="user-component__column">
@@ -88,58 +91,129 @@
       <div class="icons-more">
         <div class="icons">
           <div class="icon">
-            <i class="fas fa-qrcode fa-2x"></i>
-            <span>Calendar</span>
+            <div class="icon-image">
+              <i class="fas fa-calendar-alt fa-2x"></i>
+            </div>
+            <div class="icon-text">
+              <span>Calendar</span>
+            </div>
           </div>
           <div class="icon">
-            <i class="far fa-address-book fa-2x"></i>
-            <span>Talk Drive</span>
+            <div class="icon-image">
+              <i class="far fa-inbox fa-2x"></i>
+            </div>
+            <div class="icon-text">
+              <span>Talk Drive</span>
+            </div>
+            
           </div>
           <div class="icon">
-            <i class="fas fa-at fa-2x"></i>
-            <span>Emotions</span>
+            <div class="icon-image">
+              <i class="far fa-smile fa-2x"></i>
+            </div>
+            <div class="icon-text">
+              <span>Emotions</span>
+            </div>
+          
           </div>
           <div class="icon">
-            <i class="far fa-envelope fa-2x"></i>
-            <span>Themes</span>
+            <div class="icon-image">
+              <i class="fas fa-brush fa-2x"></i>
+            </div>
+            <div class="icon-text">
+              <span>Themes</span>
+            </div>
+            
           </div>
         </div>
 
         <div class="icons">
           <div class="icon">
-            <i class="fas fa-qrcode fa-2x"></i>
-            <span>Account</span>
+            <div class="icon-image">
+              <i class="far fa-user-circle fa-2x"></i>
+            </div>
+            <div class="icon-text">
+              <span>Account</span>
+            </div>
+            
+            
           </div>
           <div class="icon">
-            <i class="far fa-address-book fa-2x"></i>
-            <span>Openchat</span>
+            <div class="icon-image">
+              <i class="far fa-comments fa-2x"></i>
+            </div>
+            <div class="icon-text">
+              <span>Openchat</span>
+            </div>
+            
+            
           </div>
-          <div class="icon"></div>
-          <div class="icon"></div>
+          <div class="icon">
+            <div class="icon-image">
+
+            </div>
+            <div class="icon-text">
+              
+            </div>
+          </div>
+          <div class="icon">
+            <div class="icon-image">
+
+            </div>
+            <div class="icon-text">
+              
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="sugestions__title">
-        <span>sugestions</span>
-      </div>
+      <div class="more-sugestions">
+        <span>Sugestions</span>
+        <div class="icons-suggestion">
+          <div class="icons">
+            <div class="icon">
+              <div class="icon-image">
+                <div class="icon-box">
+                  <span>kakao<br />games</span>
+                </div>
+              </div>
+              <div class="icon-text">
+                <span>Kakao Story</span>
+              </div>
 
-      <div class="icons-suggestion">
-        <div class="icons">
-          <div class="icon">
-            <i class="fas fa-qrcode fa-2x"></i>
-            <span>Kakao Story</span>
+              
+              
+            </div>
+            <div class="icon">
+              <div class="icon-image">
+                <div class="icon-box">
+                  <span>kakao<br />friends</span>
+                </div>
+              </div>
+              <div class="icon-text">
+                <span>Kakao friends</span>
+              </div>
+
+              
+              
+            </div>
+
+            <div class="icon">
+              <div class="icon-image">
+                <div class="icon-box">
+                  <span>kakao<br />gem</span>
+                </div>
+              </div>
+              <div class="icon-text">
+                <span>Kakao Gem</span>
+              </div>
+            </div>
+            <div class="icon"></div>
           </div>
-          <div class="icon">
-            <i class="far fa-address-book fa-2x"></i>
-            <span>Kakao friends</span>
-          </div>
-          <div class="icon">
-            <i class="far fa-address-book fa-2x"></i>
-            <span>Kakao Gem</span>
-          </div>
-          <div class="icon"></div>
         </div>
       </div>
+
+      
     </div>
   </body>
 </html>

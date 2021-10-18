@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
 
+
   overflow: hidden;
 }
 .user-component__column:nth-child(2) {
@@ -59,6 +60,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
 .user-component__subtitle {
   color: rgba(0, 0, 0, 0.5);
   font-size: 18px;
@@ -68,6 +70,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
 /*component-middle text size */
 .user-component-middle .user-component__title {
   font-size: 24px;
