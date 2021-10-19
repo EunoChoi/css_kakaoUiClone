@@ -5,9 +5,8 @@
 
 .more-sugestions {
   display: flex;
+  align-items: center;
   flex-direction: column;
-
-  height: 50px;
 
   border-top: solid 2px rgba(0, 0, 0, 0.1);
 }
@@ -23,6 +22,10 @@
 
 .icons-more span {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.icons-more .icon{
+  position: relative;
 }
 
 .icons-suggestion span {
@@ -55,7 +58,7 @@
 
 /* add exclamation*/
 #exclamation {
-  background-color: yellow;
+  background-color: whitesmoke;
   margin-left: 10px;
   color: tomato;
 }
@@ -65,4 +68,23 @@
 
   align-items: center;
   overflow: hidden;
+}
+
+.dot{
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  width: 8px;
+  height: 8px;
+  background-color: tomato;
+
+  border-radius: 50%;
+}
+
+.screen-header__icons{
+  position: relative;
+}
+.header-dot{
+  right: -5px;
+  top:-5px;
 }

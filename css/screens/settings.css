@@ -25,15 +25,25 @@
 }
 
 .setting span:first-child{
+    display: flex;
+
+    align-items: center;
+
     font-size: 20px;
-    opacity: 0.7;
+    opacity: 1;
     z-index: inherit;
+
+    display: flex;
 }
 .setting span:first-child i{
     margin-right: 20px;
 
 }
-.setting span:last-child{
+.setting>span:last-child{
     font-size: 16px;
     opacity: 0.5;
+}
+.setting>span:first-child .badge__settings{
+    font-size: 13px;
+    margin-left: 10px;
 }
