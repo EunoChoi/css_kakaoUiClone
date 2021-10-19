@@ -1,6 +1,9 @@
-/*@import "css/variables.css";*/
+
 
 .screen-header {
+  z-index: 100;
+
+  
   background-color: whitesmoke;
   color: black;
   position: fixed;
@@ -21,7 +24,18 @@
 }
 .screen-header__icons {
   white-space: nowrap;
+  
 }
+
 .screen-header__icons span {
   padding-left: 10px;
+  
+}
+
+.screen-header__icons>span i:hover{
+  animation: dance 1s linear infinite;
+}
+
+.screen-header__icons>span:last-child i:hover{
+  animation: rotate360 2s linear infinite;
 }

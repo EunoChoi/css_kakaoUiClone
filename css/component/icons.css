@@ -11,6 +11,7 @@
   align-items: center;
 
   width: 20vw;
+  transition: all ease-in-out 1s;
 }
 .icon-image{
   height: 40px;

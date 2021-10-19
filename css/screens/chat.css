@@ -29,10 +29,8 @@
     padding: 5px;
 }
 
-
-
-
 .input-area{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +46,13 @@
     
 
     background-color: whitesmoke;
+
+    animation : text-area-show 0.7s ease-in-out forwards;
 }
+.input-area__text:focus-within{
+    
+}
+
 .input-area__plus{
     display: flex;
     justify-content: center;
@@ -58,6 +62,16 @@
     width: 30px;
     height: 30px;
     border-radius: 20%;
+
+    transition: all ease-in-out 0.5s;
+}
+.input-area:focus-within .input-area__column:first-child{
+    display: none;
+}
+
+.input-area:focus-within .input-area__column:last-child{
+    background-color: tomato;
+    width: 100%;
 }
 
 
@@ -73,6 +87,8 @@
     margin-left: 10px;
 
     background-color: white;
+
+    transition: all ease-in-out 0.5s;
 }
 .input-area__text{
     margin-left: 10px;

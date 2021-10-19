@@ -15,8 +15,10 @@
 @import "component/icons.css";
 @import "component/open-chat-component.css";
 @import "component/chat-row.css";
+@import "component/animation.css";
 
 /*screens*/
+@import "screens/splash.css";
 @import "screens/index.css";
 @import "screens/friends.css";
 @import "screens/find.css";
@@ -32,8 +34,10 @@ html {
 
 body {
   width: 100vw;
+  height: auto;
   background-color: whitesmoke;
 }
+
 
 .body__chat{
   background-color: lightblue;
@@ -41,6 +45,7 @@ body {
 
 .main-screen {
   padding: 126px 30px 56px 30px;
+  animation: screen-transition ease-in-out 0.5s forwards;
 }
 
 .main-screen__login {
@@ -53,6 +58,10 @@ body {
 
 .main-screen__settings {
   padding: 116px 0px 56px 0px;
+}
+
+.splash-img{
+  animation: splash-out ease-in-out 0.5s forwards;
 }
 
 
