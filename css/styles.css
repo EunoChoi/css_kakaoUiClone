@@ -69,9 +69,4 @@ body {
   padding: 116px 0px 56px 0px;
 }
 
-.splash-img{
-  animation: splash-out ease-in-out 0.6s forwards;
-  animation-delay: 1s;
-}
-
 

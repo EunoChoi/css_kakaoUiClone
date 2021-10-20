@@ -9,4 +9,7 @@
 
   color: white;
   background-color: tomato;
+  z-index: 150;
+
+  animation : dance 1s ease-in-out infinite;
 }
