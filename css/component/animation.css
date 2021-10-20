@@ -1,10 +1,8 @@
 @keyframes screen-transition{
     0%{
-        transform:translateY(70px);
         opacity: 0;
     }
     100%{
-        transform:translateY(0px);
         opacity: 1;
     }
 }
@@ -21,6 +19,27 @@
     }
 }
 
+@keyframes nav-bar-show{
+    0%{
+        transform:translateY(40px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 @keyframes text-area-show{
     0%{
         transform:translateY(100px);
@@ -33,9 +52,6 @@
 @keyframes splash-out{
     0%{
         visibility: visible;
-        opacity: 1;
-    }
-    75%{
         opacity: 1;
     }
     100%{

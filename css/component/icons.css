@@ -11,10 +11,13 @@
   align-items: center;
 
   width: 20vw;
-  transition: all ease-in-out 1s;
+  /*transition: all ease-in-out 1s;*/
 }
 .icon-image{
   height: 40px;
+}
+.icon-image i:hover{
+  animation: dance 1s linear infinite;
 }
 .icon-text{
   height: 40px;

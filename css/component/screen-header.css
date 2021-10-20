@@ -3,7 +3,7 @@
 .screen-header {
   z-index: 100;
 
-  
+
   background-color: whitesmoke;
   color: black;
   position: fixed;
@@ -21,10 +21,11 @@
 .screen-header__text {
   font-size: 40px;
   font-weight: 600;
+  animation : bounce 0.6s ease-in-out forwards;
 }
 .screen-header__icons {
   white-space: nowrap;
-  
+  animation : bounce 0.6s ease-in-out forwards;
 }
 
 .screen-header__icons span {
